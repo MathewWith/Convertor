@@ -1,0 +1,77 @@
+.container {
+  text-align: center;
+  height: 500px;
+  .container__list-currencies {
+    padding: 0% 30%;
+  }
+  .container__inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 30%;
+    height: 17%;
+    .container__inputs-one {
+      width: 40%;
+      font-size: 40px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid silver;
+    }
+    @media (max-width: 400px) {
+      .container__inputs-one {
+        font-size: 20px;
+      }
+    }
+    .container__inputs-two {
+      width: 40%;
+      font-size: 40px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid silver;
+    }
+    @media (max-width: 400px) {
+      .container__inputs-two {
+        font-size: 20px;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .container__inputs {
+      height: 5%;
+    }
+  }
+
+  .container__btn {
+    display: flex;
+    padding: 0 0 0 30%;
+    flex-direction: row;
+    .container__btn-reverse {
+      width: 23%;
+      border-radius: 15px;
+      box-shadow: none;
+      background-color: rgb(236, 9, 141);
+      color: white;
+      border: 0;
+      padding: 5px 5px;
+    }
+    .container__btn-btn {
+      width: 9%;
+      border-radius: 15px;
+      box-shadow: none;
+      background-color: rgb(236, 9, 141);
+      color: white;
+      border: 0;
+      padding: 5px 5px;
+      margin-left: 1%;
+    }
+    @media (max-width: 400px) {
+      .container__btn-btn {
+        width: 20%;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .container__btn {
+      padding-top: 5px;
+    }
+  }
+}

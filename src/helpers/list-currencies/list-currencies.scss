@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+  justify-content: space-between;
+  .child-one {
+    display: flex;
+    width: 40%;
+    padding: 10px 0px;
+  }
+  @media (max-width: 400px) {
+    .child-one {
+      padding-bottom: 3px;
+      align-items: flex-end;
+      font-size: 13px;
+    }
+  }
+  .child-two {
+    display: flex;
+    width: 40%;
+    padding: 10px 0px;
+  }
+  @media (max-width: 400px) {
+    .child-two {
+      padding-bottom: 3px;
+      align-items: flex-end;
+      font-size: 13px;
+    }
+  }
+  .wrapper__list-currencies {
+    border: none;
+    outline: none;
+    width: 40%;
+    border-bottom: 1px solid silver;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 5px 0px;
+  }
+}
